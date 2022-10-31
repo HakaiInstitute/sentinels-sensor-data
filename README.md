@@ -1,7 +1,7 @@
 <div float="left">
 <img src=docs/logos/tula-logo.png />
 <img src=docs/logos/hakai-logo.png />
-<img src=docs/logos/sentinels-logo.pmg />
+<img src=docs/logos/sentinels-logo.png />
 </div>
 
 # sentinels-sensor-data
