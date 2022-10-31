@@ -1,3 +1,9 @@
+<div float="left">
+<img src=docs/logos/tula-logo.png />
+<img src=docs/logos/hakai-logo.png />
+<img src=docs/logos/sentinels-logo.pmg />
+</div>
+
 # sentinels-sensor-data
 Temperature sensor data associated with the Sentinels of Change project
 ## Summary
