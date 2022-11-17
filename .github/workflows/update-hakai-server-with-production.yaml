@@ -10,6 +10,6 @@ jobs:
       - name: Repository Dispatch
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          token: ${{ secrets.CI_TOKEN }}
           repository: HakaiInstitute/hakai-sensor-network-sa-sensors-python-only
           event-type: pull-all-datasets
