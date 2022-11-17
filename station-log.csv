@@ -1,4 +1,4 @@
-﻿station_name,station,associated_survey,commissioned_time,decomissioned_time,status,deployment,depth_m,serial_number,logger_type,latitude,longitude,db_table,table_type
+﻿station_name,station,associated_survey,commissioned_time,decomissioned_time,status,deployment,fixed_depth,serial_number,logger_type,latitude,longitude,db_table,table_type
 Cortes Bay,cortes_bay,Sentinels of Change,2022-04-15,,Decomissioned until 2023,suspended from floating dock on a rope,0.5,21153572,tidbit MX 2203,50.06104,-124.929541,sentinel_temp_cortes_bay,temperature
 Cowichan Bay,cowichan_bay,Sentinels of Change,2022-04-15,,Decomissioned until 2023,suspended from floating dock on a rope,0.5,,tidbit MX 2203,48.743411,-123.627967,sentinel_temp_cowichan_bay,temperature
 Descanso Bay,descanso_bay,Sentinels of Change,2022-04-15,,Decomissioned until 2023,suspended from floating dock on a rope,0.5,21291010,tidbit MX 2203,49.177887,-123.858146,sentinel_temp_descanso_bay,temperature
