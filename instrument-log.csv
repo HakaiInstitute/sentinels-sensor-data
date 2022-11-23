@@ -1,6 +1,6 @@
 ﻿instrument_manufacturer,instrument_model,instrument_sn,station,fixed_depth,deployment_time,retrieval_time,comment,correction,db_table,table_type
 Onset,Tidbit MX2203,21153572,cortes_bay,0.5,2022-04-15T12:00:00 -07:00,2022-09-01T00:00:00 -07:00,,,sentinel_temp_cortes_bay,temperature
-Onset,Tidbit MX2203,,cowichan_bay,0.5,2022-04-15T12:00:00 -07:00,2022-09-01T00:00:00 -07:00,,,sentinel_temp_cowichan_bay,temperature
+Onset,Tidbit MX2203,21291007,cowichan_bay,0.5,2022-04-15T12:00:00 -07:00,2022-09-01T00:00:00 -07:00,,,sentinel_temp_cowichan_bay,temperature
 Onset,Tidbit MX2203,21291010,descanso_bay,0.5,,,,,sentinel_temp_descanso_bay,temperature
 Onset,Tidbit MX2203,21234319,false_bay,0.5,2022-04-21T00:00:00 -07:00,2022-09-01T00:00:00 -07:00,,,sentinel_temp_false_bay,temperature
 Onset,Tidbit MX2203,21234321,ford_cove,0.5,2022-04-15T12:00:00 -07:00,2022-09-01T00:00:00 -07:00,,,sentinel_temp_ford_cove,temperature
@@ -8,11 +8,11 @@ Onset,Tidbit MX2203,21255251,heather_marina,0.5,2022-04-15T14:00:00 -07:00,2022-
 Onset,Tidbit MX2203,21234298,heriot_bay,0.5,2022-04-15T12:00:00 -07:00,2022-09-01T00:00:00 -07:00,,,sentinel_temp_heriot_bay,temperature
 Onset,Tidbit MX2203,21291013,hope_bay,0.5,2022-04-16T19:41:00 -07:00,2022-09-01T00:00:00 -07:00,,,sentinel_temp_hope_bay,temperature
 Onset,Tidbit MX2203,21234331,horseshoe_bay,0.5,2022-04-15T12:00:00 -07:00,2022-08-31T09:00:00 -07:00,,,sentinel_temp_horseshoe_bay,temperature
-Onset,Tidbit MX2204,,IOS,0.5,,,,,sentinel_temp_ios,temperature
-Onset,Tidbit MX2205,21291004,miners_bay,0.5,2022-04-15T12:00:00 -07:00,2022-09-01T00:00:00 -07:00,,,sentinel_temp_miners_bay,temperature
-Onset,Tidbit MX2206,,PBS,0.5,2022-04-19T12:00:00 -07:00,2022-09-01T00:00:00 -07:00,,,sentinel_temp_pbs,temperature
-Onset,Tidbit MX2207,21153573,PSEC,0.5,2022-04-15T12:00:00 -07:00,2022-09-01T00:00:00 -07:00,,,sentinel_temp_psec,temperature
-Onset,Tidbit MX2208,21291006,retreat_cove,0.5,2022-04-15T16:00:00 -07:00,2022-09-01T00:00:00 -07:00,,,sentinel_temp_retreat_cove,temperature
-Onset,Tidbit MX2209,,silva_bay,0.5,2022-04-07T12:00:00 -07:00,2022-09-01T00:00:00 -07:00,,,sentinel_temp_silva_bay,temperature
-Onset,Tidbit MX2210,21234352,whaler_bay,0.5,2022-04-15T12:00:00 -07:00,2022-09-01T00:00:00 -07:00,,,sentinel_temp_whaler_bay,temperature
-Onset,Tidbit MX2211,,winter_cove,0.5,,,,,sentinel_temp_winter_cove,temperature
+Onset,Tidbit MX2203,,IOS,0.5,,,,,sentinel_temp_ios,temperature
+Onset,Tidbit MX2203,21291004,miners_bay,0.5,2022-04-15T12:00:00 -07:00,2022-09-01T00:00:00 -07:00,,,sentinel_temp_miners_bay,temperature
+Onset,Tidbit MX2203,21255261,PBS,0.5,2022-04-19T12:00:00 -07:00,2022-09-01T00:00:00 -07:00,,,sentinel_temp_pbs,temperature
+Onset,Tidbit MX2203,21153573,PSEC,0.5,2022-04-15T12:00:00 -07:00,2022-09-01T00:00:00 -07:00,,,sentinel_temp_psec,temperature
+Onset,Tidbit MX2203,21291006,retreat_cove,0.5,2022-04-15T16:00:00 -07:00,2022-09-01T00:00:00 -07:00,,,sentinel_temp_retreat_cove,temperature
+Onset,Tidbit MX2203,21234322,silva_bay,0.5,2022-04-07T12:00:00 -07:00,2022-09-01T00:00:00 -07:00,,,sentinel_temp_silva_bay,temperature
+Onset,Tidbit MX2203,21234352,whaler_bay,0.5,2022-04-15T12:00:00 -07:00,2022-09-01T00:00:00 -07:00,,,sentinel_temp_whaler_bay,temperature
+Onset,Tidbit MX2203,,winter_cove,0.5,,,,,sentinel_temp_winter_cove,temperature
