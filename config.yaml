@@ -3,3 +3,5 @@ data:
   recursive: true
 file_naming_convention: '(?P<station>[^\\\/]+)_(?P<serial_number>[A-Z\d]+)_(?P<retrival_date>\d{8})(?P<extra>_rawdata){0,1}\..{3}$'
 station_from_filename: true
+default_database_table_template: template_temperature
+table_prefix: sentinel_
