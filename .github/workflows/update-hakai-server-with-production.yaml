@@ -11,5 +11,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ secrets.CI_TOKEN }}
-          repository: HakaiInstitute/hakai-sensor-network-sa-sensors-python-only
+          repository: HakaiInstitute/hakai-dataset-repositories-harvester
           event-type: pull-all-datasets
