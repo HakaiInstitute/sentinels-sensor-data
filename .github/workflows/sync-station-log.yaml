@@ -1,10 +1,10 @@
 name: Sync station log
 on:
-    push:
-        branches:
-        - main
+  push:
+    branches:
+      - main
     paths:
-        Master_Stations.csv
+        - Master_Stations.csv
 
 jobs:
     sync:
