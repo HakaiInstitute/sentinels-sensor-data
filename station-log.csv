@@ -31,7 +31,8 @@ Powell River Marina,powell_river_marina,POW,Powell River Volunteer,49.835512,-12
 Prince Rupert,prince_rupert,PRI,Fisheries and Oceans Canada,54.319661,-130.318203,,,,,,,B,,0.0,38.0
 Retreat Cove,retreat_cove,RET,Galiano Conservation Association,48.940555,-123.501321,"suspended from floating dock on a rope, sank at one point during the season",2022-04-15,,0.5,,Sentinels of Change,H,,69.0,70.0
 Silva Bay,silva_bay,SIL,Gabriola Power Squadron,49.149062,-123.697133,suspended from floating dock on a rope,2022-04-15,,0.5,,Sentinels of Change,H,,70.0,79.0
-Sooke Harbour,sooke,,,48.37,-123.727222,,,,0.5,,Sentinels of Change,E,,0.0,19.0
+Sooke Harbors,sooke,,,48.37,-123.727222,,,,0.5,,Sentinels of Change,,,,
+Sooke Harbour,sooke_harbour,SOO,T'sou-ke Nation,48.37,-123.727222,,,,,,,E,,0.0,19.0
 Surge Narrows,surge_narows,SUR,Surge Narrows School,50.227191,-125.112238,,,,0.5,,Sentinels of Change,G,,41.0,24.0
 Takush Harbour,takush_harbour,TAK,Gwa'sala-'Nakwaxda'xw Nation Guardians,51.284665,-127.641405,,,,,,,G,,0.0,0.0
 Whaler Bay,whaler_bay,WHA,Institute for Multidisciplinary Ecological Research in the Salish Sea,48.884619,-123.327312,suspended from floating dock on a rope,2022-04-15,,0.5,,Sentinels of Change,H,,56.0,24.0
