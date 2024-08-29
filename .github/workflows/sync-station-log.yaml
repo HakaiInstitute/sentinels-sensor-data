@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - main
-    paths:
-        - Master_Stations.csv
 
 jobs:
     sync:
