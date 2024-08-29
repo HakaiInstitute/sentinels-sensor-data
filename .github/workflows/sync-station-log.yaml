@@ -16,10 +16,11 @@ jobs:
         - name: Install Hakai Datasets
           run: |
             python -m pip install --upgrade pip
-            pip install .
+            pip install poetry
+            poetry install
         - name: Sync station log
           run: |
-            python scripts/join_master_station_to_station_log.py
+            poetry run python scripts/join_master_station_to_station_log.py
         - name: Commit and push changes
           run: |
             git config --global user.email "hakai-it"
