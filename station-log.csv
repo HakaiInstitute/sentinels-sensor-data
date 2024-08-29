@@ -1,26 +1,39 @@
-﻿station_name,station,associated_survey,commissioned_time,decomissioned_time,status,deployment,fixed_depth,latitude,longitude
-Cortes Bay,cortes_bay,Sentinels of Change,2022-04-15,,,suspended from floating dock on a rope,0.5,50.06104,-124.929541
-Cowichan Bay,cowichan_bay,Sentinels of Change,2022-04-15,,,suspended from floating dock on a rope,0.5,48.743411,-123.627967
-Descanso Bay,descanso_bay,Sentinels of Change,2022-04-15,,,suspended from floating dock on a rope,0.5,49.177887,-123.858146
-False Bay,false_bay,Sentinels of Change,2022-04-15,,,suspended from floating dock on a rope,0.5,49.486124,-124.359048
-Ford Cove,ford_cove,Sentinels of Change,2022-04-15,,,suspended from floating dock on a rope,0.5,49.497028,-124.676667
-Heather Marina,heather_marina,Sentinels of Change,2022-04-15,,,suspended from floating dock on a rope,0.5,49.269518,-123.120009
-Heriot Bay,heriot_bay,Sentinels of Change,2022-04-15,,,suspended from floating dock on a rope,0.5,50.102299,-125.201637
-Hope Bay,hope_bay,Sentinels of Change,2022-04-15,,,suspended from floating dock on a rope,0.5,48.803253,-123.275209
-Horseshoe Bay,horseshoe_bay,Sentinels of Change,2022-04-15,,,suspended from floating dock on a rope,0.5,49.375655,-123.273128
-Institute of Ocean Sciences,IOS,Sentinels of Change,2022-04-15,,,suspended from floating dock on a rope,0.5,48.652354,-123.449674
-Miners Bay,miners_bay,Sentinels of Change,2022-04-15,,,suspended from floating dock on a rope,0.5,48.852116,-123.301532
-Pacific Biological Station,PBS,Sentinels of Change,2022-04-15,,,suspended from floating dock on a rope,0.5,49.210394,-123.956589
-Pacific Science Enterprise Centre,PSEC,Sentinels of Change,2022-04-15,,,suspended from floating dock on a rope,0.5,49.340105,-123.232975
-Retreat Cove,retreat_cove,Sentinels of Change,2022-04-15,,,"suspended from floating dock on a rope, sank at one point during the season",0.5,48.940555,-123.501321
-Silva Bay,silva_bay,Sentinels of Change,2022-04-15,,,suspended from floating dock on a rope,0.5,49.149062,-123.697133
-Whaler Bay,whaler_bay,Sentinels of Change,2022-04-15,,,suspended from floating dock on a rope,0.5,48.884619,-123.327312
-Winter Cove,winter_cove,Sentinels of Change,2022-04-15,,,suspended from floating dock on a rope,0.5,,
-Bamfield,bamfield,Sentinels of Change,,,,,0.5,48.834409,-125.136888
-Campbell River,campbell_river,Sentinels of Change,,,,,0.5,50.021321,-125.235467
-Denman Island,denman_island,Sentinels of Change,,,,,0.5,49.53396,-124.821826
-Indian Arm,indian_arm,Sentinels of Change,,,,,0.5,49.461387,-122.886246
-James Island Pier,james_island_pier,Sentinels of Change,,,,,0.5,48.598934,-123.388668
-Pender Harbour,pender_harbout,Sentinels of Change,,,,,0.5,49.623357,-124.025677
-Sooke Harbors,sooke,Sentinels of Change,,,,,0.5,48.37,-123.727222
-Surge Narrows,surge_narows,Sentinels of Change,,,,,0.5,50.227191,-125.112238
+station_name,station,station_code,organization,latitude,longitude,deployment,commissioned_time,decomissioned_time,fixed_depth,comments,associated_survey,mgmt_area,status,trap_checks2022,trap_checks2023
+Alberni Inlet,alberni_inlet,ALB,Fisheries and Oceans Canada,49.231972,-124.814506,,,,,,,E,,0.0,50.0
+Bamfield,bamfield,BAM,Bamfield Marine Sciences Centre,48.834409,-125.136888,,,,0.5,,Sentinels of Change,E,,0.0,61.0
+Blunden Harbour,blunden_harbour,BLU,Gwa'sala-'Nakwaxda'xw Nation Guardians,50.908664,-127.288306,,,,,,,G,,0.0,0.0
+Boot Cove,boot_cove,BOO,Community Member,48.796,-123.179,,,,,Moved from winter cove to here July 2022,,H,,25.0,0.0
+Campbell River,campbell_river,CAM,Campbell River Aquarium,50.021321,-125.235467,,,,0.5,,Sentinels of Change,G,,0.0,54.0
+Cortes Bay,cortes_bay,COS,Friends of Cortes Island Society,50.06104,-124.929541,suspended from floating dock on a rope,2022-04-15,,0.5,,Sentinels of Change,G,,54.0,71.0
+Cowichan Bay,cowichan_bay,COW,Cowichan Estuary Restoration & Conservation Association,48.743411,-123.627967,suspended from floating dock on a rope,2022-04-15,,0.5,,Sentinels of Change,H,,38.0,55.0
+Denman Island,denman_island,DEN,Association for Denman Island Marine Stewards,49.53396,-124.821826,,,,0.5,,Sentinels of Change,H,,0.0,55.0
+Descanso Bay,descanso_bay,DES,Gabriola Island Community,49.177887,-123.858146,suspended from floating dock on a rope,2022-04-15,,0.5,,Sentinels of Change,H,,63.0,72.0
+False Bay,false_bay,FAL,Lasqueti Island Nature Conservancy,49.486124,-124.359048,suspended from floating dock on a rope,2022-04-15,,0.5,,Sentinels of Change,H,,60.0,86.0
+Ford Cove,ford_cove,FOR,"Hornby Island Diving, Conservancy Hornby Island, Hornby Island Natural History Centre",49.497028,-124.676667,suspended from floating dock on a rope,2022-04-15,,0.5,,Sentinels of Change,H,,58.0,43.0
+Gibsons Harbour,gibsons_harbour,GIB,Nicholas Sonntag Marine Education Centre,49.40093,-123.504312,,,,,,,I,,0.0,64.0
+Heather Marina,heather_marina,HEA,False Creek Friends Society,49.269518,-123.120009,suspended from floating dock on a rope,2022-04-15,,0.5,,Sentinels of Change,I,,78.0,59.0
+Heriot Bay,heriot_bay,HER,Hakai Institute and Quadra Island Community,50.102299,-125.201637,suspended from floating dock on a rope,2022-04-15,,0.5,,Sentinels of Change,G,,60.0,61.0
+Hope Bay,hope_bay,HOP,Pender Islands Conservancy,48.803253,-123.275209,suspended from floating dock on a rope,2022-04-15,,0.5,,Sentinels of Change,H,,35.0,53.0
+Horseshoe Bay,horseshoe_bay,HOR,Ocean Wise and Howe Sound Marine Stewardship Initiative,49.375655,-123.273128,suspended from floating dock on a rope,2022-04-15,,0.5,,Sentinels of Change,I,,67.0,63.0
+Hotsprings Cove,hotsprings_cove,HOT,Ha'oom Fisheries,49.369942,-126.271804,,,,,,,E,,0.0,0.0
+Indian Arm,indian_arm,IND,Wigwam Inn,49.461387,-122.886246,,,,0.5,,Sentinels of Change,I,,0.0,64.0
+Institute of Ocean Sciences,IOS,IOS,Fisheries and Oceans Canada,48.652354,-123.449674,suspended from floating dock on a rope,2022-04-15,,0.5,,Sentinels of Change,H,,55.0,0.0
+James Island Pier,james_island_pier,JAM,Tsawout First Nation Fisheries Department,48.598934,-123.388668,,,,0.5,,Sentinels of Change,H,,0.0,68.0
+Klemtu,klemtu,KLE,Kitasoo/Xai'Xais Stewardship Authority + SEAS Student Program,52.58725,-128.518366,,,,,,,B,,0.0,0.0
+Lyall Harbour,lyall_harbour,LYA,Saturna Ecological Education Centre,48.798,-123.20032,,,,,Stopped sampling July 2023,,H,,0.0,13.0
+Miners Bay,miners_bay,MIN,Mayne Island Conservancy,48.852116,-123.301532,suspended from floating dock on a rope,2022-04-15,,0.5,,Sentinels of Change,H,,60.0,55.0
+Pacific Biological Station,PBS,PBS,Fisheries and Oceans Canada,49.210394,-123.956589,suspended from floating dock on a rope,2022-04-15,,0.5,,Sentinels of Change,H,,55.0,44.0
+Pacific Science Enterprise Centre,PSEC,PAC,Tsleil-Waututh Nation and Fisheries and Oceans Canada,49.340105,-123.232975,suspended from floating dock on a rope,2022-04-15,,0.5,,Sentinels of Change,I,,63.0,35.0
+Pender Harbour,pender_harbout,PDH,Pender Harbour Ocean Discovery Station,49.623357,-124.025677,,,,0.5,,Sentinels of Change,G,,92.0,82.0
+Porpoise Bay,porpoise_bay,PRP,shishalh First Nation Fisheries Technicians,49.484078,-123.762361,,,,,,,H,,0.0,38.0
+Port of San Juan,port_of_san_juan,PSJ,Pacheedaht First Nation,48.563292,-124.424681,,,,,,,E,,0.0,0.0
+Powell River Marina,powell_river_marina,POW,Powell River Volunteer,49.835512,-124.529777,,,,,,,G,,0.0,25.0
+Prince Rupert,prince_rupert,PRI,Fisheries and Oceans Canada,54.319661,-130.318203,,,,,,,B,,0.0,38.0
+Retreat Cove,retreat_cove,RET,Galiano Conservation Association,48.940555,-123.501321,"suspended from floating dock on a rope, sank at one point during the season",2022-04-15,,0.5,,Sentinels of Change,H,,69.0,70.0
+Silva Bay,silva_bay,SIL,Gabriola Power Squadron,49.149062,-123.697133,suspended from floating dock on a rope,2022-04-15,,0.5,,Sentinels of Change,H,,70.0,79.0
+Sooke Harbors,sooke,,,48.37,-123.727222,,,,0.5,,Sentinels of Change,,,,
+Sooke Harbour,sooke_harbour,SOO,T'sou-ke Nation,48.37,-123.727222,,,,,,,E,,0.0,19.0
+Surge Narrows,surge_narows,SUR,Surge Narrows School,50.227191,-125.112238,,,,0.5,,Sentinels of Change,G,,41.0,24.0
+Takush Harbour,takush_harbour,TAK,Gwa'sala-'Nakwaxda'xw Nation Guardians,51.284665,-127.641405,,,,,,,G,,0.0,0.0
+Whaler Bay,whaler_bay,WHA,Institute for Multidisciplinary Ecological Research in the Salish Sea,48.884619,-123.327312,suspended from floating dock on a rope,2022-04-15,,0.5,,Sentinels of Change,H,,56.0,24.0
+Winter Cove,winter_cove,WIN,Saturna Ecological Education Centre,48.809618,-123.190196,suspended from floating dock on a rope,2022-04-15,,0.5,,Sentinels of Change,H,,17.0,0.0
