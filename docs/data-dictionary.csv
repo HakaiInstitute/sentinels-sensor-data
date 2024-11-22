@@ -1,0 +1,15 @@
+file,variable,long_name,units,standard_name,comment
+intrument-log.csv,type of instrument,instrument_model,,,Indicates the make and model of the instrument used to collect data
+intrument-log.csv,serial number,instrument_sn,whole number,,Indicates the serial number of each instrument
+intrument-log.csv,site,station,,,indicates the location at which the data were collected
+intrument-log.csv,deployment time,deployment_time,date/time,,date and time the instrument was deployed in a given year
+intrument-log.csv,retrieval time,retrieval_time,date/time,,date and time the instrument was retrieved in a given year
+intrument-log.csv,comment,comment,,,"any notes on the status of the instrument, typically if it has been lost or data can't be retrieved"
+station-log,site,station-name,,,indicates full name of the location at which instruments were deployed
+station-log,site,station,,,indicates abbreviated name of the location at which instruments were deployed
+station-log,project,associated_survey,,,indicates project associated with data collection
+station-log,comission time,comissioned_time,date/time,,indicates the date and time a temperature sensor was first deployed at this site
+station-log,decomission time,decomissioned_time,date/time,,indicates the date and time a temperature sensor was last removed from this site
+station-log,status,status,Decomissioned or Active,,indicates whether there is currently a sensor deployed and data being collected or if it has been decomissioned for the season/permanently
+site_specific_rawdata.csv,date and time,"Date Time, GMT-07:00",date/time,,indicates date and time of idnividual temperature recording at a given site
+site_specific_rawdata.csv,temperatuer,"Temp, ¡C",decimal,,indicates water tempreature in degrees celsius
