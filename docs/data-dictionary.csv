@@ -13,3 +13,7 @@ station-log,decomission time,decomissioned_time,date/time,,indicates the date an
 station-log,status,status,Decomissioned or Active,,indicates whether there is currently a sensor deployed and data being collected or if it has been decomissioned for the season/permanently
 site_specific_rawdata.csv,date and time,"Date Time, GMT-07:00",date/time,,indicates date and time of idnividual temperature recording at a given site
 site_specific_rawdata.csv,temperatuer,"Temp, ¡C",decimal,,indicates water tempreature in degrees celsius
+master_stations,Code,Code,,,indicates site code at sampling location
+master_stations,Site,Site,,,indicates full site name of sampling location
+master_stations,Management area,mgmt_area,A - I,,indicates crab management area as defined by Department of Fisheries and Oceans
+master_stations,Trap Checks,trap_checks_year,whole number,,indicates the number of times a light trap was checked at a given station in a given year
