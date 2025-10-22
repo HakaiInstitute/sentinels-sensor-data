@@ -17,7 +17,6 @@ station_log_columns = [
     "deployment",
     "commissioned_time",
     "decomissioned_time",
-    "fixed_depth",
     "comments",
 ]
 
