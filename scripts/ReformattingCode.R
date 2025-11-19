@@ -149,4 +149,21 @@ silvabay_data$'Date-Time' <- format(silvabay_data$'Date-Time', "%d-%m-%Y %H:%M:%
 
 write.csv(silvabay_data, "S13854_SilvaBay_REFORMATTED.csv", row.names = FALSE, fileEncoding = "Latin1")
 
+--------------------
+  #Quathiaski Cove
+  
+  quathiaskicove_data <- read.csv(
+    "staroddi-data/2025/RAW DATA/1S13774DAT.CSV",
+    sep = ";",
+    dec = ",",
+    stringsAsFactors = FALSE,
+    fileEncoding = "Latin1",
+    check.names = FALSE
+  )
+
+quathiaskicove_data$'Date-Time' <- as.POSIXct(quathiaskicove_data$'Date-Time', format = "%d.%m.%Y %H:%M:%S")
+quathiaskicove_data$'Date-Time' <- format(quathiaskicove_data$'Date-Time', "%d-%m-%Y %H:%M:%S")
+
+write.csv(quathiaskicove_data, "staroddi-data/2025/S13774_QuathiaskiCove_REFORMATTED.csv", row.names = FALSE, fileEncoding = "Latin1")
+
 
