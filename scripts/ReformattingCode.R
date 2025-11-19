@@ -1,3 +1,18 @@
+#===============================================================================
+# Sentinels Salinity Data Reformatting
+# Reformat salinity data to CSVs
+#
+# Input:
+#     raw star-oddi CSVs with semi-colons instead of commas
+#
+# Output:
+#     multiple salinity data CSVs with commas
+#
+# Erin Maher (Hakai Institute) erin.maher@hakai.org
+# First Created 09/2025
+# Last Updated 11/2025
+#===============================================================================
+
 #Cowichan S13850
 
 cowichan_data <- read.csv(
