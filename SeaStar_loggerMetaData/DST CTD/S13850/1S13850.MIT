@@ -1,0 +1,54 @@
+	Filename: C:\Software\Star-Oddi\SeaStar\DST CTD\S13850\1S13850.MIT
+	SeaStar 9.61
+	Date & Time: 2025-10-16 5:21:20 PM
+	----------------------------------------------------
+	Recorder type             : DST CT
+	Recorder number           : S13850
+	Recorder version          : 20  DM/CRC16/4800
+	Recorder measures         : Temperature and Conductivity
+	Memory capacity(Meas/Byte): 65374 / 392478
+	Measurement seq. number   : 1
+	----------------------------------------------
+
+	Retrieved according to    : Recorder definition
+	Communication statistics
+		Requested bytes  : 21531
+		Received bytes   : 21531
+		Requested packs  : 85
+		Received packs   : 85
+		Re-sent packs    : 0
+		Empty packs      : 0
+		Number of errors : 0
+	----------------------------------------------
+
+	Recorder initiation time : 2025-04-22 12:11:16 PM
+	Measurement start time   : 2025-04-28 12:00:00 AM
+	PC connection time       : 2025-10-16 5:19:40 PM
+	Data retrieval time      : 2025-10-16 5:21:20 PM
+	Status (7)               : Measuring OK
+	Recorder mode            : Measurement mode
+	Measurements           Number    Mem.used(%)
+	----------------------------------------------
+	Temp. & Salinity       7177           5      
+
+	Measurement time (days:hours) : 149:12
+	Memory used Byte / (%)        : 21531  /  5
+
+	Estimated battery life calculations
+	       At initiation time (%) :  99,6
+	     At connection time (%) :  94,3
+	            Remaining now (%) :  93,8
+	CRC test on MID          : Enabled
+	----------------------------------------------
+
+
+	Measurement start time     : 2025-04-28 12:00:00 AM
+	----------------------------------------------
+
+	Measurement settings:  [dd:hh:mm:ss] x number
+	                                             
+	---------------------------------------------
+	Start delay          :  05:11:48:44
+	1. interval period   :     00:30:00  x  65520
+
+	Measurement interval sequence: 1-1-1-1-1-1-1-1-1-1-1-1-1-1

@@ -1,0 +1,327 @@
+[2025-09-24 11:44:44 AM]Started SeaStar 9.61
+[2025-09-24 12:20:06 PM]Connected to recorder (S13850) Mode: measurement
+[2025-09-24 12:21:11 PM]Recorder data retrieved: 21531 of 21531 bytes
+[2025-09-24 12:21:14 PM]Retrieving data from recorder (S13850)
+[2025-09-24 12:22:18 PM]Data retrieval canceled by user
+[2025-09-24 1:47:39 PM]Disconnected recorder (S13850)
+[2025-10-08 11:20:30 AM]Connected to recorder (S13851) Mode: measurement
+[2025-10-08 11:21:34 AM]Recorder data retrieved: 23541 of 23541 bytes
+[2025-10-08 11:21:36 AM]Retrieving data from recorder (S13851)
+[2025-10-08 11:23:18 AM]Recorder data retrieved: 23541 of 23541 bytes
+[2025-10-08 11:23:29 AM]Disconnected recorder (S13851)
+[2025-10-08 12:23:06 PM]Connected to recorder (S13822) Mode: measurement
+[2025-10-08 12:24:11 PM]Recorder data retrieved: 23547 of 23547 bytes
+[2025-10-08 12:24:13 PM]Retrieving data from recorder (S13822)
+[2025-10-08 12:26:05 PM]Data retrieval canceled by user
+[2025-10-08 12:39:51 PM]Retrieving data from recorder (S13822)
+[2025-10-08 12:39:57 PM]Failed to retrieve recorder data
+[2025-10-08 12:40:34 PM]Connected to recorder (S13833) Mode: measurement
+[2025-10-08 12:41:36 PM]Recorder data retrieved: 23541 of 23541 bytes
+[2025-10-08 12:41:37 PM]Retrieving data from recorder (S13833)
+[2025-10-08 12:42:10 PM]Recorder data retrieved: 3876 of 23541 bytes
+[2025-10-08 12:42:17 PM]Disconnected recorder (S13833)
+[2025-10-08 12:44:08 PM]Connected to recorder (S13833) Mode: sleep
+[2025-10-08 12:44:14 PM]Retrieving data from recorder (S13833)
+[2025-10-08 12:45:12 PM]Recorder data retrieved: 23541 of 23541 bytes
+[2025-10-08 12:53:15 PM]Retrieving data from recorder (S13833)
+[2025-10-08 12:53:21 PM]Data retrieval canceled by user
+[2025-10-08 12:54:35 PM]Connected to recorder (S13689) Mode: measurement
+[2025-10-08 12:55:36 PM]Recorder data retrieved: 23550 of 23550 bytes
+[2025-10-08 12:55:38 PM]Retrieving data from recorder (S13689)
+[2025-10-08 12:55:45 PM]Data retrieval canceled by user
+[2025-10-08 1:35:27 PM]Retrieving data from recorder (S13689)
+[2025-10-08 1:35:30 PM]Data retrieval canceled by user
+[2025-10-08 1:35:33 PM]Retrieving data from recorder (S13689)
+[2025-10-08 1:35:36 PM]Data retrieval canceled by user
+[2025-10-08 1:35:41 PM]Retrieving data from recorder (S13689)
+[2025-10-08 1:35:43 PM]Data retrieval canceled by user
+[2025-10-08 1:35:55 PM]Retrieving data from recorder (S13689)
+[2025-10-08 1:36:00 PM]Failed to retrieve recorder data
+[2025-10-08 1:36:31 PM]Connected to recorder (S13855) Mode: measurement
+[2025-10-08 1:37:33 PM]Recorder data retrieved: 23556 of 23556 bytes
+[2025-10-08 1:37:35 PM]Retrieving data from recorder (S13855)
+[2025-10-08 1:37:41 PM]Data retrieval canceled by user
+[2025-10-08 2:09:48 PM]Retrieving data from recorder (S13855)
+[2025-10-08 2:10:02 PM]Failed to retrieve recorder data
+[2025-10-08 2:10:40 PM]Connected to recorder (S13775) Mode: measurement
+[2025-10-08 2:12:02 PM]Recorder data retrieved: 23559 of 23559 bytes
+[2025-10-08 2:12:04 PM]Retrieving data from recorder (S13775)
+[2025-10-08 2:12:09 PM]Data retrieval canceled by user
+[2025-10-08 2:19:12 PM]Retrieving data from recorder (S13775)
+[2025-10-08 2:19:26 PM]Failed to retrieve recorder data
+[2025-10-08 2:20:02 PM]Connected to recorder (S13854) Mode: measurement
+[2025-10-08 2:21:03 PM]Recorder data retrieved: 23559 of 23559 bytes
+[2025-10-08 2:21:05 PM]Retrieving data from recorder (S13854)
+[2025-10-08 2:21:38 PM]Data retrieval canceled by user
+[2025-10-08 3:39:33 PM]Closed SeaStar 9.61
+[2025-10-09 10:54:30 AM]Started SeaStar 9.61
+[2025-10-09 10:57:49 AM]Connected to recorder (S13850) Mode: sleep
+[2025-10-09 10:57:49 AM]Retrieving data from recorder (S13850)
+[2025-10-09 10:58:39 AM]Recorder data retrieved: 21531 of 21531 bytes
+[2025-10-09 10:59:51 AM]Disconnected recorder (S13850)
+[2025-10-09 11:03:57 AM]Connected to recorder (S13850) Mode: sleep
+[2025-10-09 11:06:05 AM]NMS AddLine	Retrieving recorder ID
+[2025-10-09 11:06:05 AM]NMS LastLine	Retrieving recorder ID..	OK
+[2025-10-09 11:06:05 AM]NMS AddLine	Testing recorder ID
+[2025-10-09 11:06:05 AM]NMS LastLine	Testing recorder ID..		OK
+[2025-10-09 11:06:05 AM]NMS AddLine	Testing CLK-Write
+[2025-10-09 11:06:06 AM]NMS LastLine	Testing CLK-Write/Read
+[2025-10-09 11:06:06 AM]NMS LastLine	Testing CLK-Write/Read Compare
+[2025-10-09 11:06:06 AM]NMS LastLine	Testing CLK-Write/Read Compare	OK
+[2025-10-09 11:06:13 AM]Start New Measurement Sequence
+[2025-10-09 11:06:13 AM]Recorder  Seq.Nr.  Date  ---&---  Time  Result   Description
+[2025-10-09 11:06:13 AM]  S13850        2  2025-10-09 11:06:13 AM   Error   Invalid start time
+[2025-10-09 11:06:23 AM]NMS AddLine	Retrieving recorder ID
+[2025-10-09 11:06:23 AM]NMS LastLine	Retrieving recorder ID..	OK
+[2025-10-09 11:06:23 AM]NMS AddLine	Testing recorder ID
+[2025-10-09 11:06:23 AM]NMS LastLine	Testing recorder ID..		OK
+[2025-10-09 11:06:23 AM]NMS AddLine	Testing CLK-Write
+[2025-10-09 11:06:23 AM]NMS LastLine	Testing CLK-Write/Read
+[2025-10-09 11:06:24 AM]NMS LastLine	Testing CLK-Write/Read Compare
+[2025-10-09 11:06:24 AM]NMS LastLine	Testing CLK-Write/Read Compare	OK
+[2025-10-09 11:06:28 AM]Start New Measurement Sequence
+[2025-10-09 11:06:28 AM]Recorder  Seq.Nr.  Date  ---&---  Time  Result   Description
+[2025-10-09 11:06:28 AM]  S13850        2  2025-10-09 11:06:28 AM   Error   Invalid start time
+[2025-10-09 2:18:51 PM]Closed SeaStar 9.61
+[2025-10-16 5:16:10 PM]Started SeaStar 9.61
+[2025-10-16 5:19:51 PM]Connected to recorder (S13850) Mode: sleep
+[2025-10-16 5:19:51 PM]Retrieving data from recorder (S13850)
+[2025-10-16 5:21:20 PM]Recorder data retrieved: 21531 of 21531 bytes
+[2025-10-16 5:21:47 PM]Disconnected recorder (S13850)
+[2025-10-16 5:29:14 PM]Connected to recorder (S13850) Mode: sleep
+[2025-10-16 5:35:23 PM]NMS AddLine	Retrieving recorder ID
+[2025-10-16 5:35:23 PM]NMS LastLine	Retrieving recorder ID..	OK
+[2025-10-16 5:35:23 PM]NMS AddLine	Testing recorder ID
+[2025-10-16 5:35:23 PM]NMS LastLine	Testing recorder ID..		OK
+[2025-10-16 5:35:23 PM]NMS AddLine	Testing CLK-Write
+[2025-10-16 5:35:24 PM]NMS LastLine	Testing CLK-Write/Read
+[2025-10-16 5:35:24 PM]NMS LastLine	Testing CLK-Write/Read Compare
+[2025-10-16 5:35:24 PM]NMS LastLine	Testing CLK-Write/Read Compare	OK
+[2025-10-16 5:35:24 PM]NMS AddLine	The CRC number is = 	61575
+[2025-10-16 5:35:24 PM]NMS AddLine	New settings to recorder
+[2025-10-16 5:35:28 PM]NMS LastLine	New settings to recorder..	OK
+[2025-10-16 5:35:28 PM]NMS AddLine	Trim settings to CLK
+[2025-10-16 5:35:28 PM]NMS LastLine	Trim settings to CLK..	OK
+[2025-10-16 5:35:28 PM]NMS AddLine	PC-clock settings to recorder
+[2025-10-16 5:35:29 PM]NMS LastLine	PC-clock settings to recorder..	OK
+[2025-10-16 5:35:29 PM]NMS AddLine	Testing recorder settings:
+[2025-10-16 5:35:29 PM]NMS AddLine	  Retrieving RID
+[2025-10-16 5:35:30 PM]NMS LastLine	  Retrieving RID..		OK
+[2025-10-16 5:35:30 PM]NMS AddLine	  Making a comparison test
+[2025-10-16 5:35:30 PM]NMS LastLine	  Making a comparison test..	OK
+[2025-10-16 5:35:30 PM]NMS AddLine	Clearing RAM in recorder
+[2025-10-16 5:35:31 PM]NMS LastLine	Clearing RAM in recorder..	OK
+[2025-10-16 5:35:31 PM]NMS AddLine	Initiating new meas. seq.
+[2025-10-16 5:35:32 PM]NMS LastLine	Initiating new meas. seq...	OK
+[2025-10-16 5:35:32 PM]NMS AddLine	Saving the MDT,RDT files
+[2025-10-16 5:35:32 PM]NMS LastLine	Saving the MDT,RDT files..	OK
+[2025-10-16 5:35:58 PM]Start New Measurement Sequence
+[2025-10-16 5:35:58 PM]Recorder  Seq.Nr.  Date  ---&---  Time  Result   Description
+[2025-10-16 5:35:58 PM]  S13850        2  2025-10-16 5:35:58 PM   OK
+[2025-10-16 5:35:58 PM]Recorder (S13850) disconnected in measurement mode
+[2025-10-16 6:09:54 PM]Connected to recorder (S13850) Mode: measurement
+[2025-10-16 6:11:16 PM]NMS AddLine	Retrieving recorder ID
+[2025-10-16 6:11:16 PM]NMS LastLine	Retrieving recorder ID..	OK
+[2025-10-16 6:11:16 PM]NMS AddLine	Testing recorder ID
+[2025-10-16 6:11:16 PM]NMS LastLine	Testing recorder ID..		OK
+[2025-10-16 6:11:16 PM]NMS AddLine	Testing CLK-Write
+[2025-10-16 6:11:16 PM]NMS LastLine	Testing CLK-Write/Read
+[2025-10-16 6:11:17 PM]NMS LastLine	Testing CLK-Write/Read Compare
+[2025-10-16 6:11:17 PM]NMS LastLine	Testing CLK-Write/Read Compare	OK
+[2025-10-16 6:11:17 PM]NMS AddLine	The CRC number is = 	37172
+[2025-10-16 6:11:17 PM]NMS AddLine	New settings to recorder
+[2025-10-16 6:11:21 PM]NMS LastLine	New settings to recorder..	OK
+[2025-10-16 6:11:21 PM]NMS AddLine	Trim settings to CLK
+[2025-10-16 6:11:21 PM]NMS LastLine	Trim settings to CLK..	OK
+[2025-10-16 6:11:21 PM]NMS AddLine	PC-clock settings to recorder
+[2025-10-16 6:11:21 PM]NMS LastLine	PC-clock settings to recorder..	OK
+[2025-10-16 6:11:21 PM]NMS AddLine	Testing recorder settings:
+[2025-10-16 6:11:21 PM]NMS AddLine	  Retrieving RID
+[2025-10-16 6:11:23 PM]NMS LastLine	  Retrieving RID..		OK
+[2025-10-16 6:11:23 PM]NMS AddLine	  Making a comparison test
+[2025-10-16 6:11:23 PM]NMS LastLine	  Making a comparison test..	OK
+[2025-10-16 6:11:23 PM]NMS AddLine	Clearing RAM in recorder
+[2025-10-16 6:11:24 PM]NMS LastLine	Clearing RAM in recorder..	OK
+[2025-10-16 6:11:24 PM]NMS AddLine	Initiating new meas. seq.
+[2025-10-16 6:11:25 PM]NMS LastLine	Initiating new meas. seq...	OK
+[2025-10-16 6:11:25 PM]NMS AddLine	Saving the MDT,RDT files
+[2025-10-16 6:11:25 PM]NMS LastLine	Saving the MDT,RDT files..	OK
+[2025-10-16 6:11:32 PM]Start New Measurement Sequence
+[2025-10-16 6:11:32 PM]Recorder  Seq.Nr.  Date  ---&---  Time  Result   Description
+[2025-10-16 6:11:32 PM]  S13850        3  2025-10-16 6:11:32 PM   OK
+[2025-10-16 6:11:32 PM]Recorder (S13850) disconnected in measurement mode
+[2025-10-16 6:16:31 PM]Connected to recorder (S13850) Mode: measurement
+[2025-10-16 6:16:56 PM]NMS AddLine	Retrieving recorder ID
+[2025-10-16 6:16:56 PM]NMS LastLine	Retrieving recorder ID..	OK
+[2025-10-16 6:16:56 PM]NMS AddLine	Testing recorder ID
+[2025-10-16 6:16:56 PM]NMS LastLine	Testing recorder ID..		OK
+[2025-10-16 6:16:56 PM]NMS AddLine	Testing CLK-Write
+[2025-10-16 6:16:57 PM]NMS LastLine	Testing CLK-Write/Read
+[2025-10-16 6:16:57 PM]NMS LastLine	Testing CLK-Write/Read Compare
+[2025-10-16 6:16:57 PM]NMS LastLine	Testing CLK-Write/Read Compare	OK
+[2025-10-16 6:16:57 PM]NMS AddLine	The CRC number is = 	25749
+[2025-10-16 6:16:57 PM]NMS AddLine	New settings to recorder
+[2025-10-16 6:17:01 PM]NMS LastLine	New settings to recorder..	OK
+[2025-10-16 6:17:01 PM]NMS AddLine	Trim settings to CLK
+[2025-10-16 6:17:01 PM]NMS LastLine	Trim settings to CLK..	OK
+[2025-10-16 6:17:01 PM]NMS AddLine	PC-clock settings to recorder
+[2025-10-16 6:17:01 PM]NMS LastLine	PC-clock settings to recorder..	OK
+[2025-10-16 6:17:01 PM]NMS AddLine	Testing recorder settings:
+[2025-10-16 6:17:01 PM]NMS AddLine	  Retrieving RID
+[2025-10-16 6:17:03 PM]NMS LastLine	  Retrieving RID..		OK
+[2025-10-16 6:17:03 PM]NMS AddLine	  Making a comparison test
+[2025-10-16 6:17:03 PM]NMS LastLine	  Making a comparison test..	OK
+[2025-10-16 6:17:03 PM]NMS AddLine	Clearing RAM in recorder
+[2025-10-16 6:17:04 PM]NMS LastLine	Clearing RAM in recorder..	OK
+[2025-10-16 6:17:04 PM]NMS AddLine	Initiating new meas. seq.
+[2025-10-16 6:17:05 PM]NMS LastLine	Initiating new meas. seq...	OK
+[2025-10-16 6:17:05 PM]NMS AddLine	Saving the MDT,RDT files
+[2025-10-16 6:17:05 PM]NMS LastLine	Saving the MDT,RDT files..	OK
+[2025-10-16 6:17:12 PM]Start New Measurement Sequence
+[2025-10-16 6:17:12 PM]Recorder  Seq.Nr.  Date  ---&---  Time  Result   Description
+[2025-10-16 6:17:12 PM]  S13850        4  2025-10-16 6:17:12 PM   OK
+[2025-10-16 6:17:12 PM]Recorder (S13850) disconnected in measurement mode
+[2025-10-16 6:19:40 PM]Connected to recorder (S13850) Mode: measurement
+[2025-10-16 6:19:40 PM]Retrieving data from recorder (S13850)
+[2025-10-16 6:19:47 PM]No measurements to retrieve
+[2025-10-16 6:21:01 PM]NMS AddLine	Retrieving recorder ID
+[2025-10-16 6:21:01 PM]NMS LastLine	Retrieving recorder ID..	OK
+[2025-10-16 6:21:01 PM]NMS AddLine	Testing recorder ID
+[2025-10-16 6:21:01 PM]NMS LastLine	Testing recorder ID..		OK
+[2025-10-16 6:21:01 PM]NMS AddLine	Testing CLK-Write
+[2025-10-16 6:21:01 PM]NMS LastLine	Testing CLK-Write/Read
+[2025-10-16 6:21:02 PM]NMS LastLine	Testing CLK-Write/Read Compare
+[2025-10-16 6:21:02 PM]NMS LastLine	Testing CLK-Write/Read Compare	OK
+[2025-10-16 6:21:02 PM]NMS AddLine	The CRC number is = 	58343
+[2025-10-16 6:21:02 PM]NMS AddLine	New settings to recorder
+[2025-10-16 6:21:06 PM]NMS LastLine	New settings to recorder..	OK
+[2025-10-16 6:21:06 PM]NMS AddLine	Trim settings to CLK
+[2025-10-16 6:21:06 PM]NMS LastLine	Trim settings to CLK..	OK
+[2025-10-16 6:21:06 PM]NMS AddLine	PC-clock settings to recorder
+[2025-10-16 6:21:06 PM]NMS LastLine	PC-clock settings to recorder..	OK
+[2025-10-16 6:21:06 PM]NMS AddLine	Testing recorder settings:
+[2025-10-16 6:21:06 PM]NMS AddLine	  Retrieving RID
+[2025-10-16 6:21:08 PM]NMS LastLine	  Retrieving RID..		OK
+[2025-10-16 6:21:08 PM]NMS AddLine	  Making a comparison test
+[2025-10-16 6:21:08 PM]NMS LastLine	  Making a comparison test..	OK
+[2025-10-16 6:21:08 PM]NMS AddLine	Clearing RAM in recorder
+[2025-10-16 6:21:09 PM]NMS LastLine	Clearing RAM in recorder..	OK
+[2025-10-16 6:21:09 PM]NMS AddLine	Initiating new meas. seq.
+[2025-10-16 6:21:10 PM]NMS LastLine	Initiating new meas. seq...	OK
+[2025-10-16 6:21:10 PM]NMS AddLine	Saving the MDT,RDT files
+[2025-10-16 6:21:10 PM]NMS LastLine	Saving the MDT,RDT files..	OK
+[2025-10-16 6:21:16 PM]Start New Measurement Sequence
+[2025-10-16 6:21:16 PM]Recorder  Seq.Nr.  Date  ---&---  Time  Result   Description
+[2025-10-16 6:21:16 PM]  S13850        5  2025-10-16 6:21:16 PM   OK
+[2025-10-16 6:21:16 PM]Recorder (S13850) disconnected in measurement mode
+[2025-10-16 6:22:29 PM]Connected to recorder (S13851) Mode: sleep
+[2025-10-16 6:23:07 PM]NMS AddLine	Retrieving recorder ID
+[2025-10-16 6:23:07 PM]NMS LastLine	Retrieving recorder ID..	OK
+[2025-10-16 6:23:07 PM]NMS AddLine	Testing recorder ID
+[2025-10-16 6:23:07 PM]NMS LastLine	Testing recorder ID..		OK
+[2025-10-16 6:23:07 PM]NMS AddLine	Testing CLK-Write
+[2025-10-16 6:23:07 PM]NMS LastLine	Testing CLK-Write/Read
+[2025-10-16 6:23:08 PM]NMS LastLine	Testing CLK-Write/Read Compare
+[2025-10-16 6:23:08 PM]NMS LastLine	Testing CLK-Write/Read Compare	OK
+[2025-10-16 6:23:08 PM]NMS AddLine	The CRC number is = 	38600
+[2025-10-16 6:23:08 PM]NMS AddLine	New settings to recorder
+[2025-10-16 6:23:12 PM]NMS LastLine	New settings to recorder..	OK
+[2025-10-16 6:23:12 PM]NMS AddLine	Trim settings to CLK
+[2025-10-16 6:23:12 PM]NMS LastLine	Trim settings to CLK..	OK
+[2025-10-16 6:23:12 PM]NMS AddLine	PC-clock settings to recorder
+[2025-10-16 6:23:12 PM]NMS LastLine	PC-clock settings to recorder..	OK
+[2025-10-16 6:23:12 PM]NMS AddLine	Testing recorder settings:
+[2025-10-16 6:23:12 PM]NMS AddLine	  Retrieving RID
+[2025-10-16 6:23:13 PM]NMS LastLine	  Retrieving RID..		OK
+[2025-10-16 6:23:13 PM]NMS AddLine	  Making a comparison test
+[2025-10-16 6:23:13 PM]NMS LastLine	  Making a comparison test..	OK
+[2025-10-16 6:23:13 PM]NMS AddLine	Clearing RAM in recorder
+[2025-10-16 6:23:14 PM]NMS LastLine	Clearing RAM in recorder..	OK
+[2025-10-16 6:23:14 PM]NMS AddLine	Initiating new meas. seq.
+[2025-10-16 6:23:16 PM]NMS LastLine	Initiating new meas. seq...	OK
+[2025-10-16 6:23:16 PM]NMS AddLine	Saving the MDT,RDT files
+[2025-10-16 6:23:16 PM]NMS LastLine	Saving the MDT,RDT files..	OK
+[2025-10-16 6:23:30 PM]Start New Measurement Sequence
+[2025-10-16 6:23:30 PM]Recorder  Seq.Nr.  Date  ---&---  Time  Result   Description
+[2025-10-16 6:23:30 PM]  S13851        2  2025-10-16 6:23:30 PM   OK
+[2025-10-16 6:23:30 PM]Recorder (S13851) disconnected in measurement mode
+[2025-10-16 6:24:05 PM]Closed SeaStar 9.61
+[2025-11-18 1:31:18 PM]Started SeaStar 9.61
+[2025-11-18 1:31:22 PM]Started SeaStar 9.61
+[2025-11-18 1:38:49 PM]Started SeaStar 9.64
+[2025-11-19 10:14:44 AM]Connected to recorder (S13774) Mode: measurement
+[2025-11-19 10:16:09 AM]Recorder data retrieved: 29589 of 29589 bytes
+[2025-11-19 10:16:11 AM]Retrieving data from recorder (S13774)
+[2025-11-19 10:16:30 AM]Recorder data retrieved: 3108 of 29589 bytes
+[2025-11-19 10:16:39 AM]Disconnected recorder (S13774)
+[2025-11-19 11:23:07 AM]Connected to recorder (S13688) Mode: measurement
+[2025-11-19 11:24:22 AM]Recorder data retrieved: 29595 of 29595 bytes
+[2025-11-19 11:24:30 AM]Retrieving data from recorder (S13688)
+[2025-11-19 11:26:30 AM]Data retrieval canceled by user
+[2025-11-19 11:29:53 AM]Retrieving data from recorder (S13688)
+[2025-11-19 11:29:56 AM]Failed to retrieve recorder data
+[2025-11-19 11:30:28 AM]Connected to recorder (S13864) Mode: measurement
+[2025-11-19 11:31:45 AM]Recorder data retrieved: 29595 of 29595 bytes
+[2025-11-19 11:31:47 AM]Retrieving data from recorder (S13864)
+[2025-11-19 11:31:56 AM]Data retrieval canceled by user
+[2025-11-19 11:32:59 AM]Retrieving data from recorder (S13864)
+[2025-11-19 11:33:09 AM]Failed to retrieve recorder data
+[2025-11-19 11:33:35 AM]Connected to recorder (S13856) Mode: measurement
+[2025-11-19 11:34:49 AM]Recorder data retrieved: 29595 of 29595 bytes
+[2025-11-19 11:34:50 AM]Retrieving data from recorder (S13856)
+[2025-11-19 11:36:11 AM]Recorder data retrieved: 29595 of 29595 bytes
+[2025-11-19 11:37:08 AM]Disconnected recorder (S13856)
+[2025-11-19 1:08:58 PM]Connected to recorder (S13856) Mode: sleep
+[2025-11-19 1:08:59 PM]Retrieving data from recorder (S13856)
+[2025-11-19 1:10:09 PM]Recorder data retrieved: 29595 of 29595 bytes
+[2025-11-19 1:10:13 PM]Disconnected recorder (S13856)
+[2025-11-19 1:14:14 PM]Started SeaStar 9.64
+[2025-11-19 1:15:58 PM]Connected to recorder (S13856) Mode: sleep
+[2025-11-19 1:15:58 PM]Retrieving data from recorder (S13856)
+[2025-11-19 1:17:06 PM]Recorder data retrieved: 29595 of 29595 bytes
+[2025-11-19 1:17:16 PM]Disconnected recorder (S13856)
+[2025-11-19 1:36:44 PM]Connected to recorder (S13852) Mode: measurement
+[2025-11-19 1:38:01 PM]Recorder data retrieved: 29610 of 29610 bytes
+[2025-11-19 1:38:03 PM]Retrieving data from recorder (S13852)
+[2025-11-19 1:38:48 PM]Data retrieval canceled by user
+[2025-11-19 1:39:31 PM]Retrieving data from recorder (S13852)
+[2025-11-19 1:39:38 PM]Data retrieval canceled by user
+[2025-11-19 1:39:41 PM]Retrieving data from recorder (S13852)
+[2025-11-19 1:39:46 PM]Failed to retrieve recorder data
+[2025-11-19 1:40:22 PM]Connected to recorder (S13883) Mode: measurement
+[2025-11-19 1:41:45 PM]Recorder data retrieved: 29610 of 29610 bytes
+[2025-11-19 1:41:46 PM]Retrieving data from recorder (S13883)
+[2025-11-19 1:42:09 PM]Data retrieval canceled by user
+[2025-11-19 1:43:14 PM]Retrieving data from recorder (S13883)
+[2025-11-19 1:43:20 PM]Failed to retrieve recorder data
+[2025-11-19 1:43:43 PM]Connected to recorder (S13870) Mode: measurement
+[2025-11-19 1:44:58 PM]Recorder data retrieved: 29610 of 29610 bytes
+[2025-11-19 1:45:00 PM]Retrieving data from recorder (S13870)
+[2025-11-19 1:45:04 PM]Data retrieval canceled by user
+[2025-11-19 1:45:49 PM]Retrieving data from recorder (S13870)
+[2025-11-19 1:45:55 PM]Failed to retrieve recorder data
+[2025-11-19 1:46:17 PM]Connected to recorder (S13857) Mode: measurement
+[2025-11-19 1:47:31 PM]Recorder data retrieved: 29610 of 29610 bytes
+[2025-11-19 1:47:32 PM]Retrieving data from recorder (S13857)
+[2025-11-19 1:47:41 PM]Data retrieval canceled by user
+[2025-11-19 1:49:04 PM]Retrieving data from recorder (S13857)
+[2025-11-19 1:49:07 PM]Data retrieval canceled by user
+[2025-11-19 1:49:09 PM]Retrieving data from recorder (S13857)
+[2025-11-19 1:49:19 PM]Failed to retrieve recorder data
+[2025-11-19 1:49:47 PM]Connected to recorder (S13849) Mode: measurement
+[2025-11-19 1:51:00 PM]Recorder data retrieved: 29610 of 29610 bytes
+[2025-11-19 1:51:02 PM]Retrieving data from recorder (S13849)
+[2025-11-19 1:51:15 PM]Data retrieval canceled by user
+[2025-11-19 1:52:15 PM]Retrieving data from recorder (S13849)
+[2025-11-19 1:52:21 PM]Failed to retrieve recorder data
+[2025-11-19 1:52:53 PM]Connected to recorder (S13853) Mode: measurement
+[2025-11-19 1:54:18 PM]Recorder data retrieved: 29610 of 29610 bytes
+[2025-11-19 1:54:20 PM]Retrieving data from recorder (S13853)
+[2025-11-19 1:54:39 PM]Data retrieval canceled by user
+[2025-11-19 1:56:00 PM]Retrieving data from recorder (S13853)
+[2025-11-19 1:56:05 PM]Failed to retrieve recorder data
+[2025-11-19 1:56:31 PM]Connected to recorder (S13859) Mode: measurement
+[2025-11-19 1:57:45 PM]Recorder data retrieved: 29610 of 29610 bytes
+[2025-11-19 1:57:47 PM]Retrieving data from recorder (S13859)
+[2025-11-19 1:57:52 PM]Data retrieval canceled by user
+[2025-11-19 2:04:47 PM]Closed SeaStar 9.64
