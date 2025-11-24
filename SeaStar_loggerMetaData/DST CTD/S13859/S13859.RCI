@@ -1,0 +1,64 @@
+	Filename: C:\Software\Star-Oddi\SeaStar\DST CTD\S13859\S13859.RCI
+	SeaStar 9.64
+	File creation Date & Time: 2025-11-19 1:56:22 PM
+	Recorder type              : DST CT
+	Recorder number            : S13859
+	Production number          : 82A3D859
+	Production date [dd:mm:yy] : 17:03:25
+	Calibration number         : 1
+	Calibration date[dd:mm:yy] : 17:03:25
+
+	Temperature Calibration constants:
+	------------------------------------------------------
+	Temp.C0: 131.547313120288
+	Temp.C1: -0.166515746480308
+	Temp.C2: 0.000138418741846876
+	Temp.C3: -7.20212868676718E-8
+	Temp.C4: 1.96051911282009E-11
+	Temp.C5: -2.25047846450216E-15
+
+	Temperature Calibration range:
+		      Decimal Temp.(°C)/(°F)
+		Min:	2560       -1 /   30
+		Max:	1255       40 /  104
+		Avg.resol.: 31(m°C) / 88(m°F)
+
+	Temperature sensor: Thermistor
+
+	Conduct Calibration constants:
+	------------------------------------------------------
+	Conduc.C0: 136.39324804227
+	Conduc.C1: -0.0804378771127762
+	Conduc.C2: 4.76473241698637E-5
+	Conduc.C3: -2.0490275339883E-8
+	Conduc.C4: 3.43930236739145E-12
+	Conduc.C5: 3.41659196961406E-16
+	Conduc.C6: -1.97181166436738E-19
+	Conduc.C7: 1.91060396135868E-23
+
+	Conductivity Calibration Temperature reference (°C): 32.79
+	Conductivity Cell Type: 3
+	Conductivity Cell Range (mS/cm): 2 - 68
+
+	Conductivity Calibration range:
+		      Decimal Conduc.(mS/cm)
+		Min:	4002        1
+		Max:	1635       68
+		Avg.resol.(uS/cm): 28
+
+	Conductivity Temperature Regulation constants
+	-------------------------
+	TCR.C1: 2.20994024002529
+	TCR.C2: -0.0423727028953062
+	TCR.C3: 0.00376464702738499
+	TCR.C4: -0.000141763246176503
+	TCR.C5: 1.66180544333374E-6
+
+	TCR1.C1: 0.265328196653498
+	TCR1.C2: 0.0186735981343861
+	TCR1.C3: -0.00111313334061156
+	TCR1.C4: 2.78513753218595E-5
+	TCR1.C5: -2.54298589490599E-7
+
+	TCR  Decimal Value Range :  965 - 1032
+	TCR1 Decimal Value Range : 3500 - 3514

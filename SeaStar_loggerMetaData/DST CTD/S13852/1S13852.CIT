@@ -1,0 +1,89 @@
+	Filename: C:\Software\Star-Oddi\SeaStar\DST CTD\S13852\1S13852.MID
+	SeaStar 9.64
+	Description: 
+	----------------------------------------------
+	Recorder type                  : DST CT
+	Recorder number                : S13852
+	Recorder version               : 20  DM/CRC16/4800
+	Recorder measures              : Temperature and Conductivity
+	Memory capacity                : 65374
+	Memory capacity(Meas/Byte)     : 65374 / 392478
+	Measurement sequence number    : 1
+	Convertion number              : 0
+	Recorder initiation time       : 2025-04-22 12:17:11 PM
+	Measurement start time         : 2025-04-28 12:00:00 AM
+	Time of conversion             : 2025-11-19 1:37:56 PM
+	----------------------------------------------
+
+	Conversion type                : Upload conversion
+	Calibration constants used     : from MID-file
+	Number of measurements         : 9870
+	Total mesurement time          : 211:2:42:49
+	Measurements read from DAD     : 9870
+	Converted measurements         : 9870
+
+	Data file settings
+	----------------------------------------------
+	Temperature unit               : (°C) Celcius
+	Temperature number of decimals : 2
+	No Temperature offset adjustment
+	Salinity unit                  : (PSU)
+	Salinity number of decimals    : 2
+	Conductivity unit              : (mS/cm)
+	Conductivity numb. of decimals : 2
+	Decimal point                  : , (comma)
+	Date format                    : [dmy] (day month year)
+	Date separation                : . (dot)
+	Time separation                : : (colon)
+	Field separation               : Tab
+	Pressure Referance (m)         : 0,000
+
+
+	Out Of Range DV (Decimal Value) Limits
+	--------------------------------------
+	RID: Temperature Calibration limits: 1259 - 2563
+	RID: Conductivity Calibr. limits: 1475 - 4000
+
+	Out Of Range UV (Unit Value) Limits (User Def.)
+	-----------------------------------------------
+	Temperature limits (°C)   : -5 - 55
+
+	Out Of Range settings and values
+	---------------------------------
+	DV OOR detection method: RID values
+	DV correction method   : No correction
+	UV correction method   : No correction
+
+	Out Of Range Overall Results
+	----------------------------
+	Temperature OORS
+	DV-OORS detected :  0
+	DV-OORS corrected:  0
+	UV-OORS detected :  0
+	UV-OORS corrected:  0
+
+	Conductivity OORS
+	DV-OORS detected :  3843
+	DV-OORS corrected:  0
+	UV-OORS detected :  3844
+	UV-OORS corrected:  0
+
+
+	    Statistical Data
+	----------------------------
+
+	Unit value statistics
+	Parameter             Nr.Meas.       Mem.used(%)      Min        Max    Average     Middle
+	------------------------------------------------------------------------------------------
+	Temperature(°C)           9870         3,77           8,9       36,5       17,1       22,7
+	Conductivity(mS/cm)       9870         3,77           0,0       28,8       16,2       14,4
+	                          9870         3,77           0,0       38,9       21,1       19,4
+	                             0         0,00      20000000,0   -20000000,0        0,0        0,0
+
+	Decimal value statistics
+	Parameter             Nr.Points      Bytes used       Min        Max    Average     Middle
+	------------------------------------------------------------------------------------------
+	Temp-bin                  9870        14805          1365       2285       2022       1825
+	Conductivity-bin          9870        14805          2590       4045       3257       3317
+	                          9870        14805          2590       4045       3257       3317
+	                             0            0         65535          0          0          0

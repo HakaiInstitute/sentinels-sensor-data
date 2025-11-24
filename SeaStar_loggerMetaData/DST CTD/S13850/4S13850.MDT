@@ -1,0 +1,47 @@
+	Filename: C:\Software\Star-Oddi\SeaStar\DST CTD\S13850\4S13850.MDT
+	SeaStar 9.61
+	----------------------------------------------
+	Recorder type               : DST CT
+	Recorder number             : S13850
+	Recorder version            : 20  DM/CRC16/4800
+	Recorder measures           : Temperature and Conductivity
+	Recorder memory(Meas/Byte)  : 130826 / 392478
+	Measurement sequence number : 4
+	Recorder started from PC    : 2025-10-16 6:17:08 PM
+	----------------------------------------------
+
+	Measurement interval def.   : Single interval = 00:02:00
+
+
+	Measurement start time     : 2025-10-16 6:20:00 PM
+	----------------------------------------------
+
+	Measurement settings:  [dd:hh:mm:ss] x number
+	                                             
+	---------------------------------------------
+	Start delay          :  00:00:02:52
+	1. interval period   :     00:02:00  x  65520
+
+	Measurement interval sequence: 1-1-1-1-1-1-1-1-1-1-1-1-1-1
+
+	Estimated time duration and battery usage for NMS
+	----------------------------------------------------
+
+	Battery energy at initiation time(%)   :  93,8
+	Battery energy at measurement start (%):  93,8
+	----------------------------------------------------
+
+
+	Cycle 1                                                    Meas.taken
+	Seq/Inr      Date&Time      Batt.used(%)  Mem.used(%)       CT    
+	  1/1   2026-01-15 6:20:00 PM      16          50           65521
+
+	Memory full                : 2026-04-16 11:10:00 AM
+	    After (days:hours)     : 181:16
+	    In Cycle               : 1
+	    In sequence            : 2
+	    In Interval            : 1
+	    In measurement         : 65305
+	    Total meas. taken      : 130826
+	    Battery used (%)       :  32,7
+	    Battery remaining (%)  :  61,2

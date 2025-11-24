@@ -1,0 +1,11 @@
+	Filename: DstS.LOG
+
+	Recorder  Seq.Nr.  Date  ---&---  Time  Result   Description
+	--------------------------------------------------------------------
+	  S13850        2  2025-10-09 11:06:13 AM   Error   Invalid start time
+	  S13850        2  2025-10-09 11:06:28 AM   Error   Invalid start time
+	  S13850        2  2025-10-16 5:35:58 PM   OK
+	  S13850        3  2025-10-16 6:11:32 PM   OK
+	  S13850        4  2025-10-16 6:17:12 PM   OK
+	  S13850        5  2025-10-16 6:21:16 PM   OK
+	  S13851        2  2025-10-16 6:23:30 PM   OK
