@@ -1,3 +1,20 @@
+#===============================================================================
+# Sentinels Salinity Data wrangling
+# combine csvs from all sites
+#
+# Input:
+#     reformatted csvs
+#
+# Output:
+#     single csv with all sites 
+#
+# Isaak Haberman (Hakai Institute) isaak.haberman@hakai.org
+# First Created 01/2026
+# Last Updated 01/2026
+#===============================================================================
+
+
+
 IndianArm <- read.csv("staroddi-data/2025/S13688_IndianArm_REFORMATTED.csv", fileEncoding = "latin1", check.names = FALSE)
 IndianArm$site <- "Indian Arm"
 
@@ -56,3 +73,5 @@ HorseshoeBay <- read.csv("staroddi-data/2025/S13883_HorseshoeBay_REFORMATTED.csv
 HorseshoeBay$site <- "Horseshoe Bay"
 
 df <- rbind(IndianArm, PenderHarbour, QCove, HopeBay, Comox, PortMoody, Sooke, Cowichan, Descanso, FordCove, WhalerBay, SilvaBay, Tofino, EchoBay, PrinceRupert, MinersBay, DaajingGiids, Victoria, HorseshoeBay)
+
+write.csv(df, "staroddi-data/2025/combined_data.csv")
