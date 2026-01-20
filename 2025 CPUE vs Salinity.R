@@ -32,6 +32,9 @@ counts$week <- week(counts$Date)  # Define week once
 counts$loc.lat <- factor(counts$Site, levels = unique(counts$Site[order(counts$lat, decreasing = TRUE)]))
 
 
+#{r summarize data}
+years <- c(2025)
+total_weekly <- list()
 
 
 
@@ -51,12 +54,18 @@ salinity <- salinity %>%
   )
 salinity <- salinity %>% select(-Date.Time)
 
+salinity <- salinity %>%
+  rename(
+    Site = site,
+    Salinity = Salinity.psu.,
+    Temperature = Temp..C.
+  )
 
 
 
 #merge CPUE and salinity data sets by Date (YMD) and Site
-left_join(Counts, Salinity, by = "Date")
 
+salCPUE <- merge(salinity, counts, by = c("Date", "Site"))
 
 
 
@@ -64,9 +73,6 @@ left_join(Counts, Salinity, by = "Date")
 
 #Graph the Salinity VS CPUE with dates/time as the comparable unit
 
-#{r summarize data}
-years <- c(2025)
-total_weekly <- list()
 
 for (year in years) {
   total_weekly[[as.character(year)]] <- counts %>%
