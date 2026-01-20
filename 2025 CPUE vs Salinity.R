@@ -1,5 +1,5 @@
-#PRACTICING EXTRACTING DATA NECESSARY FOR SALINITY EXPLORATION IN ONE SITE
-#Indian Arm
+# 2025 Light Trap CPUE vs Salinity in Salish Sea sites
+
 
 #{install libraries}
 library(ggplot2)
@@ -10,7 +10,7 @@ library(gridExtra)
 library(grid)
 
 #EXTRACT CPUE
-#Download (counts) and tease apart data we need (Site, Year, Date, Time, CPUE Night, CPUE hour?)
+#Download CPUE (counts) and tease apart data we need (Site, Year, Date, Time, CPUE Night, CPUE hour?)
 
 #{r load data}
 counts <- read.csv("/Users/Hayden Kuttenkeuler/Desktop/sentinels-light-trap/data/Master_QAQC_LightTrap_Counts.csv") %>%
@@ -68,10 +68,7 @@ salinity <- salinity %>%
 salCPUE <- merge(salinity, counts, by = c("Date", "Site"))
 
 
-
-
-
-#Graph the Salinity VS CPUE with dates/time as the comparable unit
+#Graph the Salinity VS CPUE with dates/time and site as the comparable units
 
 
 for (year in years) {
