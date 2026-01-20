@@ -61,6 +61,11 @@ salinity <- salinity %>%
     Temperature = Temp..C.
   )
 
+#Trim zero values
+
+
+
+
 
 
 #merge CPUE and salinity data sets by Date (YMD) and Site
