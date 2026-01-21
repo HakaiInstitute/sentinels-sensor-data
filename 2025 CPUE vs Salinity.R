@@ -37,10 +37,7 @@ years <- c(2025)
 total_weekly <- list()
 
 
-
-
-
-#EXTRACT SALINITY
+#SALINITY
 #Download salinity data and tease apart data we need (Site, Date-Time, Salinity, Temp?)
 
 salinity <- read.csv("/Users/Hayden Kuttenkeuler/Desktop/sentinels-sensor-data/staroddi-data/2025/combined_data.csv")
@@ -107,9 +104,9 @@ write.csv(
 
 
 
-#merge CPUE and salinity data sets by Date (YMD) and Site
+#Merge CPUE and salinity data sets by Date (YMD) and Site
 
-salCPUE <- merge(salinity, counts, by = c("Date", "Site"))
+salCPUE <- merge(salinity_trimmed, counts, by = c("Date", "Site"))
 
 
 #Graph the Salinity VS CPUE with dates/time and site as the comparable units
