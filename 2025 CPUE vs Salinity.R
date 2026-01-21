@@ -94,10 +94,23 @@ salinity_trimmed <- salinity %>%
   }) %>%
   ungroup()
 
+salinity_daily <- salinity_trimmed %>%
+  group_by(Site, Date) %>%
+  summarize(
+    Salinity = mean(Salinity, na.rm = TRUE),
+    .groups = "drop"
+  )
+
 
 write.csv(
   salinity_trimmed,
   "/Users/Hayden Kuttenkeuler/Desktop/sentinels-sensor-data/salinity_trimmed.csv",
+  row.names = FALSE
+)
+
+write.csv(
+  salinity_daily,
+  "/Users/Hayden Kuttenkeuler/Desktop/sentinels-sensor-data/salinity_daily.csv",
   row.names = FALSE
 )
 
@@ -106,15 +119,15 @@ write.csv(
 
 #Merge CPUE and salinity data sets by Date (YMD) and Site
 
-salCPUE <- merge(salinity_trimmed, counts, by = c("Date", "Site"))
+salCPUE <- merge(salinity_daily, counts, by = c("Date", "Site"))
 
 
 #Graph the Salinity VS CPUE with dates/time and site as the comparable units
 
 
 for (year in years) {
-  total_weekly[[as.character(year)]] <- counts %>%
-    filter(Year == year) %>%
+  total_weekly[[as.character(year)]] <- salCPUE %>%
+    filter(Year == 2025) %>%
     group_by(Date) %>%  # FIX: Group by Date instead of week
     summarize(CPUE.total = sum(CPUE_Hour, na.rm = TRUE), .groups = "drop")
 }
@@ -156,3 +169,5 @@ for (year in years) {
     }
   }
 }
+
+
