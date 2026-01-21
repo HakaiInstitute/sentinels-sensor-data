@@ -114,7 +114,11 @@ write.csv(
   row.names = FALSE
 )
 
-
+write.csv(
+  salCPUE,
+  "/Users/Hayden Kuttenkeuler/Desktop/sentinels-sensor-data/salCPUE.csv",
+  row.names = FALSE
+)
 
 
 #Merge CPUE and salinity data sets by Date (YMD) and Site
