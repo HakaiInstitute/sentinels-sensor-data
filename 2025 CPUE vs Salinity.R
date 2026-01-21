@@ -98,6 +98,11 @@ salinity_trimmed <- salinity %>%
   ungroup()
 
 
+write.csv(
+  salinity_trimmed,
+  "/Users/Hayden Kuttenkeuler/Desktop/sentinels-sensor-data/salinity_trimmed.csv",
+  row.names = FALSE
+)
 
 
 
