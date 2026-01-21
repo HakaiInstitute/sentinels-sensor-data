@@ -52,7 +52,6 @@ salinity <- salinity %>%
     Date = as.Date(Date.Time),       # extract date (y-m-d)
     Time = format(Date.Time, "%H:%M:%S")  # extract time
   )
-salinity <- salinity %>% select(-Date.Time)
 
 salinity <- salinity %>%
   rename(
@@ -61,7 +60,42 @@ salinity <- salinity %>%
     Temperature = Temp..C.
   )
 
-#Trim zero values
+
+salinity_trimmed <- salinity %>%
+  group_by(Site) %>%
+  group_modify(~ {
+    
+    df <- .x
+    
+    # ---- FIRST TRIM: Spring (keep data AFTER jump > 11) ----
+    spring_df <- df %>%
+      filter(Date >= as.Date("2025-04-10"),
+             Date <= as.Date("2025-05-30")) %>%
+      mutate(diff = abs(Salinity - lag(Salinity)))
+    
+    spring_jump <- which(spring_df$diff > 11)[1]
+    
+    if (!is.na(spring_jump)) {
+      spring_start_time <- spring_df$Date.Time[spring_jump]
+      df <- df %>% filter(Date.Time >= spring_start_time)
+    }
+    
+    # ---- SECOND TRIM: Fall (keep data BEFORE jump > 11) ----
+    fall_df <- df %>%
+      filter(Date >= as.Date("2025-08-15"),
+             Date <= as.Date("2025-09-30")) %>%
+      mutate(diff = abs(Salinity - lag(Salinity)))
+    
+    fall_jump <- which(fall_df$diff > 11)[1]
+    
+    if (!is.na(fall_jump)) {
+      fall_end_time <- fall_df$Date.Time[fall_jump]
+      df <- df %>% filter(Date.Time <= fall_end_time)
+    }
+    
+    df
+  }) %>%
+  ungroup()
 
 
 
