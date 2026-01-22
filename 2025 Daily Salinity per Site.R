@@ -26,3 +26,32 @@ ggplot(salinity_daily, aes(Date, Salinity, color = Site)) +
   geom_line() +
   theme_bw()
 
+#individual site's salinity hightlighted
+
+sites <- unique(salinity_daily$Site)
+
+for (s in sites) {
+  
+  p <- ggplot() +
+    geom_line(
+      data = salinity_daily %>% filter(Site != s),
+      aes(Date, Salinity, group = Site),
+      color = "grey75",
+      linewidth = 0.3
+    ) +
+    geom_line(
+      data = salinity_daily %>% filter(Site == s),
+      aes(Date, Salinity),
+      color = "deeppink",
+      linewidth = 0.6
+    ) +
+    labs(
+      title = paste("Daily Salinity —", s),
+      x = "Date",
+      y = "Salinity (psu)"
+    ) +
+    theme_bw()
+  
+  print(p)
+}
+

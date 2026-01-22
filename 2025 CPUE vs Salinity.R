@@ -80,7 +80,7 @@ salinity_trimmed <- salinity %>%
     # ---- SECOND TRIM: Fall (keep data BEFORE jump > 10) ----
     fall_df <- df %>%
       filter(Date >= as.Date("2025-08-15"),
-             Date <= as.Date("2025-11-01")) %>%
+             Date <= as.Date("2025-11-03")) %>%
       mutate(diff = abs(Salinity - lag(Salinity)))
     
     fall_jump <- which(fall_df$diff > 10)[1]
