@@ -77,13 +77,13 @@ salinity_trimmed <- salinity %>%
       df <- df %>% filter(Date.Time >= spring_start_time)
     }
     
-    # ---- SECOND TRIM: Fall (keep data BEFORE jump > 11) ----
+    # ---- SECOND TRIM: Fall (keep data BEFORE jump > 10) ----
     fall_df <- df %>%
       filter(Date >= as.Date("2025-08-15"),
-             Date <= as.Date("2025-09-30")) %>%
+             Date <= as.Date("2025-11-01")) %>%
       mutate(diff = abs(Salinity - lag(Salinity)))
     
-    fall_jump <- which(fall_df$diff > 11)[1]
+    fall_jump <- which(fall_df$diff > 10)[1]
     
     if (!is.na(fall_jump)) {
       fall_end_time <- fall_df$Date.Time[fall_jump]
@@ -137,9 +137,8 @@ for (year in years) {
 }
 
 #{r graph, echo=FALSE, fig.height=10, fig.width=7}
-sites <- c("Cowichan Bay", "Descanso Bay", "Ford Cove", "Heather Marina", "Quathiaski Cove",
-           "Hope Bay", "Horseshoe Bay", "Indian Arm", "James Island Pier", "Miners Bay",
-           "Pacific Biological Station", "Pender Harbour", "Retreat Cove", "Silva Bay",
+sites <- c("Comox", "Cowichan Bay", "Daajing Giids", "Descanso Bay", "Echo Bay", "Ford Cove", "Heather Marina", "Quathiaski Cove",
+           "Hope Bay", "Horseshoe Bay", "Indian Arm", "Miners Bay", "Pender Harbour", "Port Moody", "Prince Rupert", "Retreat Cove", "Silva Bay",
            "Sooke", "Tofino", "Victoria International Marina", "Whaler Bay")
 
 for (year in years) {
