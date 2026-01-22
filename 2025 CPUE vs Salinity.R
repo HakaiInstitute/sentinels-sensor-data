@@ -94,6 +94,13 @@ salinity_trimmed <- salinity %>%
   }) %>%
   ungroup()
 
+salinity_trimmed <- salinity_trimmed %>%
+  filter(
+    (Site != "Comox" | Date <= as.Date("2025-09-19")) &
+      (Site != "Descanso" | Date <= as.Date("2025-09-02"))
+  )
+
+
 salinity_daily <- salinity_trimmed %>%
   group_by(Site, Date) %>%
   summarize(
@@ -119,6 +126,7 @@ write.csv(
   "/Users/Hayden Kuttenkeuler/Desktop/sentinels-sensor-data/salCPUE.csv",
   row.names = FALSE
 )
+
 
 
 #Merge CPUE and salinity data sets by Date (YMD) and Site
