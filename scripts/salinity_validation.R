@@ -13,7 +13,7 @@
 # Last Updated 01/2026
 #===============================================================================
 
-
+library(dplyr)
 
 IndianArm <- read.csv("staroddi-data/2025/S13688_IndianArm_REFORMATTED.csv", fileEncoding = "latin1", check.names = FALSE)
 IndianArm$site <- "Indian Arm"
@@ -72,6 +72,11 @@ Victoria$site <- "Victoria"
 HorseshoeBay <- read.csv("staroddi-data/2025/S13883_HorseshoeBay_REFORMATTED.csv", fileEncoding = "latin1", check.names = FALSE)
 HorseshoeBay$site <- "Horseshoe Bay"
 
-df <- rbind(IndianArm, PenderHarbour, QCove, HopeBay, Comox, PortMoody, Sooke, Cowichan, Descanso, FordCove, WhalerBay, SilvaBay, Tofino, EchoBay, PrinceRupert, MinersBay, DaajingGiids, Victoria, HorseshoeBay)
+FalseCreek <- read.csv("staroddi-data/2025/S13883_FalseCreek_REFORMATTED.csv", fileEncoding = "latin1", check.names = FALSE)
+FalseCreek$site <- "False Creek"
+
+df <- rbind(IndianArm, PenderHarbour, QCove, HopeBay, Comox, PortMoody, Sooke, Cowichan, Descanso, FordCove, WhalerBay, SilvaBay, Tofino, EchoBay, PrinceRupert, MinersBay, DaajingGiids, Victoria, HorseshoeBay, FalseCreek)
 
 write.csv(df, "staroddi-data/2025/combined_data.csv")
+
+df <- read.csv("salinity_trimmed.csv")
