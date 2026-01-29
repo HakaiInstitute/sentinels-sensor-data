@@ -78,5 +78,3 @@ FalseCreek$site <- "False Creek"
 df <- rbind(IndianArm, PenderHarbour, QCove, HopeBay, Comox, PortMoody, Sooke, Cowichan, Descanso, FordCove, WhalerBay, SilvaBay, Tofino, EchoBay, PrinceRupert, MinersBay, DaajingGiids, Victoria, HorseshoeBay, FalseCreek)
 
 write.csv(df, "staroddi-data/2025/combined_data.csv")
-
-df <- read.csv("salinity_trimmed.csv")
